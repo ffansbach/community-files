@@ -1,0 +1,45 @@
+{
+  "name": "Freifunk Neuendettelsau",
+  "url": "http://freifunk-neuendettelsau.de/",
+  "location": {
+    "city": "Neuendettelsau",
+    "country": "DE",
+    "lat": 49.292061,
+    "lon": 10.805700
+  },
+  "contact": {
+    "email": "fragen@freifunk-ansbach.de"
+  },
+  "metacommunity": "Freifunk Franken",
+  "state": {
+    "nodes": 15,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2014-11-13T20:00:01.052Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://netmon.freifunk-neuendettelsau.de/map.php",
+      "technicalType": "netmon",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://netmon.freifunk-neuendettelsau.de/routerlist.php",
+      "technicalType": "netmon",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://site.freifunk-neuendettelsau.de/images/"
+    },
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  },
+  "api": "0.4.4"
+}

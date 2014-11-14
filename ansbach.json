@@ -1,0 +1,53 @@
+{
+  "name": "Freifunk Ansbach",
+  "url": "https://freifunk-ansbach.de/",
+  "location": {
+    "city": "Ansbach",
+    "country": "DE",
+    "lat": 49.301413,
+    "lon": 10.574583
+  },
+  "contact": {
+    "email": "fragen@freifunk-ansbach.de"
+  },
+  "metacommunity": "Freifunk Franken",
+  "feeds": [
+    {
+      "name": "Freifunk-Ansbach Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "https://freifunk-ansbach.de/feed/"
+    }
+  ],
+  "state": {
+    "nodes": 14,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2014-11-13T20:00:01.052Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://netmon.freifunk-ansbach.de/map.php",
+      "technicalType": "netmon",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://netmon.freifunk-ansbach.de/routerlist.php",
+      "technicalType": "netmon",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://site.freifunk-ansbach.de/images/"
+    },
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  },
+  "api": "0.4.4"
+}

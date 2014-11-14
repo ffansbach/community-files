@@ -1,0 +1,53 @@
+{
+  "name": "Freifunk Emskirchen",
+  "url": "http://www.freifunk-emskirchen.de/",
+  "location": {
+    "city": "Emskirchen",
+    "country": "DE",
+    "lat": 49.550941,
+    "lon": 10.717312
+  },
+  "contact": {
+    "email": "tino@freifunk-emskirchen.de"
+  },
+  "metacommunity": "Freifunk Franken",
+  "feeds": [
+    {
+      "name": "Freifunk-Emskirchen Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "http://www.freifunk-emskirchen.de/feed/"
+    }
+  ],
+  "state": {
+    "nodes": 7,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2014-11-13T20:00:01.052Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://netmon.freifunk-emskirchen.de/map.php",
+      "technicalType": "netmon",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://netmon.freifunk-emskirchen.de/routerlist.php",
+      "technicalType": "netmon",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://site.freifunk-emskirchen.de/images/"
+    },
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  },
+  "api": "0.4.4"
+}
