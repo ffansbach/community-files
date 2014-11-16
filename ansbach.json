@@ -8,7 +8,8 @@
     "lon": 10.574583
   },
   "contact": {
-    "email": "fragen@freifunk-ansbach.de"
+    "email": "fragen@freifunk-ansbach.de",
+    "twitter": "@freifunkansbach"
   },
   "metacommunity": "Freifunk Franken",
   "feeds": [
