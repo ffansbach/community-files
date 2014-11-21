@@ -21,7 +21,7 @@
     }
   ],
   "state": {
-    "nodes": 7,
+    "nodes": 8,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
