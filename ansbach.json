@@ -11,7 +11,6 @@
     "email": "fragen@freifunk-ansbach.de",
     "twitter": "@freifunkansbach"
   },
-  "metacommunity": "Freifunk Franken",
   "feeds": [
     {
       "name": "Freifunk-Ansbach Blog",
@@ -21,13 +20,13 @@
     }
   ],
   "state": {
-    "nodes": 16,
+    "nodes": 17,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2014-11-21T11:30:01.052Z"
+    "lastchange": "2014-12-15T11:30:01.052Z"
   },
   "nodeMaps": [
     {
