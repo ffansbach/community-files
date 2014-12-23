@@ -20,13 +20,13 @@
     }
   ],
   "state": {
-    "nodes": 187,
+    "nodes": 18,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2014-12-18T13:00:01.052Z"
+    "lastchange": "2014-12-23T08:45:01.052Z"
   },
   "nodeMaps": [
     {
