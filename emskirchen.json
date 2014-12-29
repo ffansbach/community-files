@@ -41,7 +41,7 @@
     },
     {
       "url": "https://netmon.freifunk-emskirchen.de/api/router_json.php",
-      "technicalType": "nodeList",
+      "technicalType": "nodelist",
       "mapType": "list/status"
     }
   ],
