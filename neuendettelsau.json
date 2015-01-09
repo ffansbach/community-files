@@ -12,13 +12,13 @@
   },
   "metacommunity": "Freifunk Franken",
   "state": {
-    "nodes": 17,
+    "nodes": 26,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2014-12-15T09:15:01.052Z"
+    "lastchange": "2015-01-09T23:15:00.052Z"
   },
   "nodeMaps": [
     {
