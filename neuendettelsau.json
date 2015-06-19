@@ -34,7 +34,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://site.freifunk-neuendettelsau.de/images/"
+      "url": "http://site.freifunk-neuendettelsau.de/firmware/"
     },
     "routing": [],
     "updatemode": [],
