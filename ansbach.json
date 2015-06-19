@@ -43,7 +43,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://site.freifunk-ansbach.de/images/"
+      "url": "http://site.freifunk-ansbach.de/firmware/"
     },
     "routing": [],
     "updatemode": [],
