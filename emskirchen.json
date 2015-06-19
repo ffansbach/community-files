@@ -49,7 +49,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://site.freifunk-emskirchen.de/images/"
+      "url": "http://site.freifunk-emskirchen.de/firmware/"
     },
     "routing": [],
     "updatemode": [],
