@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Neuendettelsau",
-  "url": "http://freifunk-neuendettelsau.de/",
+  "url": "http://www.freifunk-neuendettelsau.de/",
   "location": {
     "city": "Neuendettelsau",
     "country": "DE",
@@ -8,8 +8,17 @@
     "lon": 10.805700
   },
   "contact": {
-    "email": "fragen@freifunk-ansbach.de"
+    "email": "fragen@freifunk-ansbach.de",
+    "twitter": "@freifunkansbach"
   },
+  "feeds": [
+    {
+      "name": "Freifunk-Ansbach Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "https://freifunk-ansbach.de/feed/"
+    }
+  ],
   "state": {
     "nodes": 26,
     "focus": [
@@ -29,6 +38,11 @@
       "url": "https://netmon.freifunk-neuendettelsau.de/routerlist.php",
       "technicalType": "netmon",
       "mapType": "list/status"
+    },
+    {
+      "url": "https://netmon.freifunk-neuendettelsau.de/api/router_json.php",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
     }
   ],
   "techDetails": {
@@ -40,5 +54,5 @@
     "updatemode": [],
     "legals": []
   },
-  "api": "0.4.4"
+  "api": "0.4.6"
 }

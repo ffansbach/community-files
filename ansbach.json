@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Ansbach",
-  "url": "https://freifunk-ansbach.de/",
+  "url": "https://www.freifunk-ansbach.de/",
   "location": {
     "city": "Ansbach",
     "country": "DE",
@@ -38,6 +38,11 @@
       "url": "https://netmon.freifunk-ansbach.de/routerlist.php",
       "technicalType": "netmon",
       "mapType": "list/status"
+    },
+    {
+      "url": "https://netmon.freifunk-ansbach.de/api/router_json.php",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
     }
   ],
   "techDetails": {
@@ -49,5 +54,5 @@
     "updatemode": [],
     "legals": []
   },
-  "api": "0.4.4"
+  "api": "0.4.6"
 }
