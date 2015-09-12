@@ -9,7 +9,18 @@
   },
   "contact": {
     "email": "fragen@freifunk-ansbach.de",
+    "ml": "ffantechnik@list.freifunk-ansbach.de",
     "twitter": "@freifunkansbach"
+  },
+  "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "33869"
+        }
+      ]
+    }
   },
   "feeds": [
     {
@@ -19,6 +30,7 @@
       "url": "https://freifunk-ansbach.de/feed/"
     }
   ],
+  "metacommunity": "Freifunk Ansbach",
   "state": {
     "nodes": 26,
     "focus": [
@@ -26,7 +38,7 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-01-09T23:15:00.052Z"
+    "lastchange": "2015-09-12T09:07:20.052Z"
   },
   "nodeMaps": [
     {
@@ -48,11 +60,15 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://site.freifunk-neuendettelsau.de/firmware/"
+      "url": "https://site.freifunk-neuendettelsau.de/firmware/"
     },
-    "routing": [],
-    "updatemode": [],
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
     "legals": []
   },
-  "api": "0.4.6"
+  "api": "0.4.8"
 }
