@@ -9,8 +9,20 @@
   },
   "contact": {
     "email": "tino@freifunk-emskirchen.de",
+    "ml": "ffantechnik@list.freifunk-ansbach.de",
     "googleplus": "https://plus.google.com/b/107692279541593113520",
+    "facebook": "https://www.facebook.com/pages/Freifunk-Ansbach/374564152695989",
     "twitter": "@ffemsk"
+  },
+  "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "33869"
+        }
+      ]
+    }
   },
   "feeds": [
     {
@@ -20,6 +32,7 @@
       "url": "http://www.freifunk-emskirchen.de/feed/"
     }
   ],
+  "metacommunity": "Freifunk Ansbach",
   "state": {
     "nodes": 17,
     "focus": [
@@ -49,11 +62,15 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://site.freifunk-emskirchen.de/firmware/"
+      "url": "https://site.freifunk-emskirchen.de/firmware/"
     },
-    "routing": [],
-    "updatemode": [],
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
     "legals": []
   },
-  "api": "0.4.6"
+  "api": "0.4.8"
 }
