@@ -23,13 +23,13 @@
   },
   "metacommunity": "Freifunk Ansbach",
   "state": {
-    "nodes": 0,
+    "nodes": 2,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-10-04T20:07:20.052Z"
+    "lastchange": "2015-10-11T18:07:20.052Z"
   },
   "nodeMaps": [
     {
