@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Heilsbronn",
-  "url": "http://www.freifunk-heilsbronn.de/",
+  "url": "https://freifunk-ansbach.de/",
   "location": {
     "city": "Heilsbronn",
     "country": "DE",
@@ -13,6 +13,47 @@
     "facebook": "https://www.facebook.com/pages/Freifunk-Ansbach/374564152695989",
     "twitter": "@freifunkansbach"
   },
+  "metacommunity": "Freifunk Ansbach",
+  "state": {
+    "nodes": 26,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2018-09-06T21:15:32.658Z"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk-Ansbach Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "https://freifunk-ansbach.de/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://netmon.freifunk-heilsbronn.de/mesh",
+      "technicalType": "hopglass",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://netmon.freifunk-heilsbronn.de/mesh",
+      "technicalType": "hopglass",
+      "mapType": "list/status"
+    },
+    {
+      "url": "https://netmon.freifunk-heilsbronn.de/data/nodelist.json",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    },
+    {
+      "url": "https://netmon.freifunk-heilsbronn.de/data/nodes.json",
+      "technicalType": "hopglass",
+      "mapType": "list/status"
+    }
+  ],
   "support": {
     "donations": {
       "campaigns": [
@@ -23,47 +64,15 @@
       ]
     }
   },
-  "feeds": [
-    {
-      "name": "Freifunk-Ansbach Blog",
-      "category": "blog",
-      "type": "rss",
-      "url": "https://freifunk-ansbach.de/feed/"
-    }
-  ],
-  "metacommunity": "Freifunk Ansbach",
-  "state": {
-    "nodes": 26,
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Free internet access"
-    ],
-    "lastchange": "2015-09-12T09:07:20.052Z"
-  },
-  "nodeMaps": [
-    {
-      "url": "https://netmon.freifunk-heilsbronn.de/map.php",
-      "technicalType": "netmon",
-      "mapType": "geographical"
-    },
-    {
-      "url": "https://netmon.freifunk-heilsbronn.de/routerlist.php",
-      "technicalType": "netmon",
-      "mapType": "list/status"
-    },
-    {
-      "url": "https://netmon.freifunk-heilsbronn.de/api/router_json.php",
-      "technicalType": "nodelist",
-      "mapType": "list/status"
-    }
-  ],
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "https://site.freifunk-heilsbronn.de/firmware/"
+      "url": "https://site.freifunk-heilsbronn.de/firmware/",
+      "vpnaccess": "webform",
+      "registrationurl": "https://site.freifunk-heilsbronn.de/router-anmelden/"
     },
     "routing": [
+      "802.11s",
       "batman-adv"
     ],
     "updatemode": [
