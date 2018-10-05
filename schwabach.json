@@ -1,0 +1,70 @@
+{
+    "name": "Freifunk Schwabach",
+    "url": "http://www.freifunk-schwabach.de/",
+    "location": {
+        "city": "Schwabach",
+        "country": "DE",
+        "lat": 49.329167,
+        "lon": 11.020833
+    },
+    "contact": {
+        "email": "noc@freifunk-schwabach.de",
+        "ml": "allgemein@freifunk-schwabach.de"
+    },
+    "feeds": [
+        {
+            "name": "Freifunk Schwabach Blog",
+            "category": "blog",
+            "type": "rss",
+            "url": "https://freifunk-schwabach.de/feed/"
+        }
+    ],
+    "state": {
+        "nodes": 145,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "lastchange": "2018-03-06T08:43:08+01:00"
+    },
+    "nodeMaps": [
+        {
+            "url": "https://netmon.freifunk-schwabach.de/mesh",
+            "technicalType": "hopglass",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-schwabach.de/mesh",
+            "technicalType": "hopglass",
+            "mapType": "list/status"
+        },
+        {
+            "url": "https://netmon.freifunk-schwabach.de/data/nodelist.json",
+            "technicalType": "nodelist",
+            "mapType": "list/status"
+        },
+        {
+            "url": "https://netmon.freifunk-schwabach.de/data/nodes.json",
+            "technicalType": "hopglass",
+            "mapType": "list/status"
+        }
+    ],
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "http://firmware.freifunk-schwabach.de/",
+            "vpnaccess": "webform",
+            "registrationurl": "https://site.freifunk-schwabach.de/router-anmelden/"
+        },
+        "routing": [
+            "802.11s",
+            "batman-adv"
+        ],
+        "updatemode": [
+            "autoupdate"
+        ],
+        "legals": []
+    },
+    "api": "0.4.14"
+}

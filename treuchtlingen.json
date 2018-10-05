@@ -1,0 +1,69 @@
+{
+    "name": "Freifunk Treuchtlingen",
+    "url": "http://www.freifunk-treuchtlingen.de/",
+    "location": {
+        "city": "Treuchtlingen",
+        "country": "DE",
+        "lat": 48.955,
+        "lon": 10.91
+    },
+    "contact": {
+        "email": "noc@freifunk-treuchtlingen.de"
+    },
+    "feeds": [
+        {
+            "name": "Freifunk Treuchtlingen Blog",
+            "category": "blog",
+            "type": "rss",
+            "url": "https://freifunk-treuchtlingen.de/feed/"
+        }
+    ],
+    "state": {
+        "nodes": 113,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "lastchange": "2018-08-27T19:03:25+02:00"
+    },
+    "nodeMaps": [
+        {
+            "url": "https://netmon.freifunk-treuchtlingen.de/mesh",
+            "technicalType": "hopglass",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-treuchtlingen.de/mesh",
+            "technicalType": "hopglass",
+            "mapType": "list/status"
+        },
+        {
+            "url": "https://netmon.freifunk-treuchtlingen.de/data/nodelist.json",
+            "technicalType": "nodelist",
+            "mapType": "list/status"
+        },
+        {
+            "url": "https://netmon.freifunk-treuchtlingen.de/data/nodes.json",
+            "technicalType": "hopglass",
+            "mapType": "list/status"
+        }
+    ],
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "http://firmware.freifunk-treuchtlingen.de/",
+            "vpnaccess": "webform",
+            "registrationurl": "https://site.freifunk-treuchtlingen.de/router-anmelden/"
+        },
+        "routing": [
+            "802.11s",
+            "batman-adv"
+        ],
+        "updatemode": [
+            "autoupdate"
+        ],
+        "legals": []
+    },
+    "api": "0.4.14"
+}
