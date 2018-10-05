@@ -43,8 +43,8 @@
             "technicalType": "nodelist",
             "mapType": "list/status"
         },
-	{
-            "url": "https://netmon.freifunk-neuendettelsau.de/data/nodes.json",
+        {
+            "url": "https://netmon.freifunk-treuchtlingen.de/data/nodes.json",
             "technicalType": "hopglass",
             "mapType": "list/status"
         }
@@ -52,9 +52,12 @@
     "techDetails": {
         "firmware": {
             "name": "gluon",
-            "url": "http://site.freifunk-treuchtlingen.de/firmware/"
+            "url": "http://firmware.freifunk-treuchtlingen.de/"
+            "vpnaccess": "webform",
+            "registrationurl": "https://site.freifunk-treuchtlingen.de/router-anmelden/"
         },
         "routing": [
+            "802.11s",
             "batman-adv"
         ],
         "updatemode": [
@@ -62,5 +65,5 @@
         ],
         "legals": []
     },
-    "api": "0.4.8"
+    "api": "0.4.14"
 }
