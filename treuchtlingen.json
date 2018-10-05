@@ -52,7 +52,7 @@
     "techDetails": {
         "firmware": {
             "name": "gluon",
-            "url": "http://firmware.freifunk-treuchtlingen.de/"
+            "url": "http://firmware.freifunk-treuchtlingen.de/",
             "vpnaccess": "webform",
             "registrationurl": "https://site.freifunk-treuchtlingen.de/router-anmelden/"
         },
