@@ -8,7 +8,8 @@
         "lon": 11.020833
     },
     "contact": {
-        "email": "noc@freifunk-schwabach.de"
+        "email": "noc@freifunk-schwabach.de",
+        "ml": "allgemein@freifunk-schwabach.de"
     },
     "feeds": [
         {
@@ -44,7 +45,7 @@
             "mapType": "list/status"
         },
         {
-            "url": "https://netmon.freifunk-neuendettelsau.de/data/nodes.json",
+            "url": "https://netmon.freifunk-schwabach.de/data/nodes.json",
             "technicalType": "hopglass",
             "mapType": "list/status"
         }
@@ -52,9 +53,12 @@
     "techDetails": {
         "firmware": {
             "name": "gluon",
-            "url": "http://site.freifunk-schwabach.de/firmware/"
+            "url": "http://firmware.freifunk-schwabach.de/",
+            "vpnaccess": "webform",
+            "registrationurl": "https://site.freifunk-schwabach.de/router-anmelden/"
         },
         "routing": [
+            "802.11s",
             "batman-adv"
         ],
         "updatemode": [
