@@ -34,22 +34,22 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://netmon.freifunk-ansbach.de/mesh",
+      "url": "https://map.freifunk-ansbach.de/",
       "technicalType": "hopglass",
       "mapType": "geographical"
     },
     {
-      "url": "https://netmon.freifunk-ansbach.de/mesh",
+      "url": "https://map.freifunk-ansbach.de/",
       "technicalType": "hopglass",
       "mapType": "list/status"
     },
     {
-      "url": "https://netmon.freifunk-ansbach.de/data/nodelist.json",
+      "url": "https://map.freifunk-ansbach.de/data/nodelist.json",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
-      "url": "https://netmon.freifunk-ansbach.de/data/nodes.json",
+      "url": "https://map.freifunk-ansbach.de/data/nodes.json",
       "technicalType": "hopglass",
       "mapType": "list/status"
     }
