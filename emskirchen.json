@@ -35,22 +35,22 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://map.freifunk-emskirchen.de/",
+      "url": "https://karte.freifunk-emskirchen.de/",
       "technicalType": "hopglass",
       "mapType": "geographical"
     },
     {
-      "url": "https://map.freifunk-emskirchen.de/",
+      "url": "https://karte.freifunk-emskirchen.de/",
       "technicalType": "hopglass",
       "mapType": "list/status"
     },
     {
-      "url": "https://map.freifunk-emskirchen.de/data/nodelist.json",
+      "url": "https://karte.freifunk-emskirchen.de/data/nodelist.json",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
-      "url": "https://map.freifunk-emskirchen.de/data/nodes.json",
+      "url": "https://karte.freifunk-emskirchen.de/data/nodes.json",
       "technicalType": "hopglass",
       "mapType": "list/status"
     }

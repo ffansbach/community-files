@@ -34,22 +34,22 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://map.freifunk-neuendettelsau.de/",
+      "url": "https://karte.freifunk-neuendettelsau.de/",
       "technicalType": "hopglass",
       "mapType": "geographical"
     },
     {
-      "url": "https://map.freifunk-neuendettelsau.de/",
+      "url": "https://karte.freifunk-neuendettelsau.de/",
       "technicalType": "hopglass",
       "mapType": "list/status"
     },
     {
-      "url": "https://map.freifunk-neuendettelsau.de/data/nodelist.json",
+      "url": "https://karte.freifunk-neuendettelsau.de/data/nodelist.json",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
-      "url": "https://map.freifunk-neuendettelsau.de/data/nodes.json",
+      "url": "https://karte.freifunk-neuendettelsau.de/data/nodes.json",
       "technicalType": "hopglass",
       "mapType": "list/status"
     }
